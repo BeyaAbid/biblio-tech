@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>R&eacute;clamation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="part">
+            <img src="fache.jpg" alt="Trulli" width="300" height="230" style="padding: 10%;">
+        </div>
+        <div class="part">
+            <h1>R&eacute;clamation</h1>
+            <form action="traitement.php" method="post">
+                <input type="text" name="nom" placeholder="Nom" required>
+                <input type="text" name="prenom" placeholder="Pr&eacute;nom" required>
+                <textarea name="texte" placeholder="Texte (commentaire)" rows="4" required></textarea>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="tel" placeholder="T&eacute;l&eacute;phone" required>
+                <input type="date" name="date" placeholder="Date de demande" required>
+                <input type="submit" value="Soumettre">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
